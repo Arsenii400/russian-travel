@@ -1,0 +1,12 @@
+.website__link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.website__link:hover {
+  cursor: pointer;
+  color: #e5e5e5;
+}
