@@ -1,0 +1,7 @@
+@media screen and (max-width: 544px) {
+  .footer-links {
+   margin-bottom: 48px;
+   display: grid;
+   row-gap: 32px;
+  }
+}

@@ -6,3 +6,16 @@
   column-gap: 40px;
   row-gap: 48px;
 }
+
+
+@media screen and (max-width: 544px) {
+  .place {
+    grid-template-areas:
+      "heading"
+      "website"
+      "image"
+      "paragraphs";
+    row-gap: 32px;
+
+  }
+}

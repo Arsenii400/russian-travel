@@ -9,3 +9,18 @@
   margin: 0 auto 64px;
   text-align: center;
 }
+
+
+@media screen and (max-width:1150px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+}

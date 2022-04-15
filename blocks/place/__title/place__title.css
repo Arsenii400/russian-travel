@@ -9,3 +9,23 @@
   padding: 0;
   max-width: 460px;
 }
+
+
+@media screen and (max-width: 1150px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .place__title {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -6,3 +6,27 @@
   justify-content: space-between;
   align-items: center;
 }
+
+
+
+@media screen and (max-width: 1150px) {
+  .header {
+    max-width: 928px;
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .header {
+    max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media  screen and (max-width: 544px) {
+  .header {
+    max-width: 320px;
+    padding: 16px 16px 48px;
+  }
+}
