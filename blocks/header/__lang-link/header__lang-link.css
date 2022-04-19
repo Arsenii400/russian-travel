@@ -9,7 +9,6 @@
 
 .header__lang-link:last-of-type {
   margin-right: 0;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 544px) {
