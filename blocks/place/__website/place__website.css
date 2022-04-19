@@ -1,8 +1,13 @@
 .place__website {
   grid-area: website;
   align-self: flex-end;
-  justify-self: center;
 }
+
+@media screen and (max-width: 700px) {
+  .place__website {
+    justify-self: center;
+  }
+};
 
 @media screen and (max-width: 544px) {
   .place__website {
