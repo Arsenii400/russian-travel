@@ -7,7 +7,7 @@
   .place__website {
     justify-self: center;
   }
-};
+}
 
 @media screen and (max-width: 544px) {
   .place__website {
