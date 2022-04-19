@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  padding-left: 48px;
+  padding-right: 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

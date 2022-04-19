@@ -1,15 +1,19 @@
 .content {
-  display: grid;
-  grid-row-gap: 92px;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  padding: 0 48px;
-  margin: 0 auto;
+  padding-bottom: 92px;
 }
-
 
 @media screen and (max-width: 896px) {
   .content {
-    padding: 0;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content {
+    padding-bottom: 64px;
   }
 }

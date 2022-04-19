@@ -1,9 +1,25 @@
 .photo-grid {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 48px 92px;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+}
 
+@media screen and (max-width: 896px) {
+  .photo-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .photo-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

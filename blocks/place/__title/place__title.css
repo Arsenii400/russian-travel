@@ -1,15 +1,15 @@
 .place__title {
   grid-area: heading;
-  font-family: 'Inter', Arial, sans-serif;
   color: #fff;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.06;
   margin: 0;
   padding: 0;
   max-width: 460px;
+  justify-self: center;
+  text-align: center;
 }
-
 
 @media screen and (max-width: 1150px) {
   .place__title {
@@ -20,12 +20,21 @@
 @media screen and (max-width: 896px) {
   .place__title {
     max-width: 340px;
+    font-size: 42px;
+    line-height: 1.10;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .place__title {
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .place__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
+    justify-self: flex-start;
   }
 }

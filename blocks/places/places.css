@@ -1,11 +1,10 @@
 .places {
   max-width: 984px;
   width: 100%;
-  margin: 0 auto;
   display: grid;
   row-gap: 80px;
+  padding: 0 0 92px;
 }
-
 
 @media screen and (max-width: 1150px) {
   .places {

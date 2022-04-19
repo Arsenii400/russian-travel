@@ -2,21 +2,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 33px;
   max-width: 690px;
-  margin: 0 0 33px;
-  padding: 0;
-}
-
-
-@media screen and (max-width: 896px) {
-  .intro__text {
-    max-width:  720px;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro__text {
-    max-width:  288px;
-    margin: 0 auto 33px;
-  }
 }

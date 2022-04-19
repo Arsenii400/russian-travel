@@ -4,7 +4,6 @@
   background-position: center center;
   min-height: 740px;
   width: 100%;
-  margin: 0 auto;
   box-sizing: border-box;
   padding: 16px;
   text-decoration: none;
@@ -20,7 +19,7 @@
   content: "";
   background-color: #2a2c2f;
   opacity: .3;
-  position:absolute;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -32,7 +31,6 @@
   opacity: .8;
   background-color: #2a2c2f;
 }
-
 
 @media screen and (max-width: 1150px) {
   .cover {
