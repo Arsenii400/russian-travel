@@ -12,5 +12,7 @@
 @media screen and (max-width: 544px) {
   .place__website {
     justify-self: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

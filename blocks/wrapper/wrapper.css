@@ -3,9 +3,11 @@
   padding-left: 48px;
   padding-right: 48px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 1150px) {
   .wrapper {
     padding-left: 0;
     padding-right: 0;

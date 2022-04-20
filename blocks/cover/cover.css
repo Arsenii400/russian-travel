@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center center;
   min-height: 740px;
+  max-width: 1184px;
   width: 100%;
   box-sizing: border-box;
   padding: 16px;

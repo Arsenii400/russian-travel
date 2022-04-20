@@ -4,3 +4,15 @@
   align-items: center;
   padding: 0 0 92px;
 }
+
+@media screen and (max-width: 896px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

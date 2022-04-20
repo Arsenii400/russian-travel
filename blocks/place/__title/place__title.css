@@ -41,5 +41,7 @@
     font-size: 32px;
     line-height: 1.09;
     justify-self: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
