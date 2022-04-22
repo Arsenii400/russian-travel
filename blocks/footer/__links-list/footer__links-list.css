@@ -5,3 +5,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 544px) {
+  .footer__links {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 48px;
+  }
+}
