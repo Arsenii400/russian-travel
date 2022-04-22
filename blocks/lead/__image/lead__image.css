@@ -6,13 +6,18 @@
 
 @media screen and (max-width: 1150px) {
   .lead__image {
-    max-width: 928px;
+    max-width: 1024px;
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 896px) {
   .lead__image {
     max-width: 768px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

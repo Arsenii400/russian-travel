@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 1150px) {
   .places {
-    max-width: 928px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .places {
-    max-width: 720px;
+    max-width: 768px;
     row-gap: 72px;
   }
 }

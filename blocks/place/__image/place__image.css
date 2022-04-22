@@ -28,7 +28,5 @@
 @media screen and (max-width: 544px) {
   .place__image {
     max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
