@@ -8,6 +8,10 @@
 
 Работа выполнена для закрепления материала по резиновой и адаптивной вёрстке.
 
+(Различия отображения в разных браузерах убраны с помошью normalize.css https://necolas.github.io/normalize.css/) 
+
+(Для единообразия кода используется плагин Editor Config for VS Code: https://editorconfig.org/)
+
 #### Технологии
 * HTML 
 * CSS
